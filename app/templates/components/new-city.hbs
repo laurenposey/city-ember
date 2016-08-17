@@ -1,0 +1,19 @@
+{{#if addNewCity}}
+  <h1>New City</h1>
+  <div>
+    <form>
+    <div class="form-group">
+        <label for="name">City</label>
+        {{input value=name id="name"}}
+      </div>
+      <div class="form-group">
+        <label for="state">State</label>
+        {{input value=state id="state"}}
+      </div>
+
+      <button {{action 'save1'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'cityFormShow'}}>New City</button>
+{{/if}}
