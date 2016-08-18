@@ -5,19 +5,19 @@ export default Ember.Route.extend({
     return Ember.RSVP.hash({
       cities: this.store.findAll('city'),
       rentals: this.store.findAll('rental')
-  });
-},
+    });
+  },
   actions: {
-    save4(params) {
+    saveCity(params) {
       var newCity = this.store.createRecord('city', params);
       newCity.save();
       this.transitionTo('index');
     },
 
-    save3(params) {
-      var newRental = this.store.createRecord('rental', params);
-      newRental.save();
-      this.transitionTo('index');
-    }
+    // saveRental(params) {
+    //   var newRental = this.store.createRecord('rental', params);
+    //   newRental.save();
+    //   this.transitionTo('index');
+    // }
   }
 });

@@ -1,0 +1,7 @@
+<h2> Rentals for {{city.name}}</h2>
+
+<ul>
+  {{#each city.rentals as |rental|}}
+    {{rental-tile rental=rental}}
+  {{/each}}
+</ul>
