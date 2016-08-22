@@ -2,12 +2,4 @@
 
 {{new-rental saveRental="saveRental" city=model}}
 
-<!-- {{city-tile city=model destroyCity="destroyCity"}} -->
-
-<h2> Rentals for {{model.name}}</h2>
-
-<ul>
-  {{#each model.rentals as |rental|}}
-    {{rental-tile rental=rental}}
-  {{/each}}
-</ul>
+{{city-tile city=model destroyCity="destroyCity"}}

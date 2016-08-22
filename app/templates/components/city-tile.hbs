@@ -1,7 +1,12 @@
-<h2> Rentals for {{city.name}}</h2>
+<h2> Rentals for {{fullLocation}}</h2>
+
+Rentals availible in {{city.name}}:
 
 <ul>
-  {{#each city.rentals as |rental|}}
+  {{#each sortedRentals as |rental|}}
     {{rental-tile rental=rental}}
   {{/each}}
 </ul>
+<hr>
+<br>
+<button {{action 'destroyCity' city}}>Delete City</button>
