@@ -3,19 +3,50 @@
     "city": "San Francisco",
     "type": "Estate",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "bedrooms": 15
+    "bedrooms": 15,
+    "cost": 30000
   }, {
     "owner": "Mike Teavee",
     "city": "Seattle",
     "type": "Condo",
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
-    "bedrooms": 1
+    "bedrooms": 1,
+    "cost": 5000
   }, {
     "owner": "Violet Beauregarde",
     "city": "Portland",
     "type": "Apartment",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
-    "bedrooms": 3
+    "bedrooms": 3,
+    "cost": 4000
+  }, {
+    "owner": "Lauren Posey",
+    "city": "Portland",
+    "type": "Home",
+    "image": "https://bbandm.files.wordpress.com/2011/08/blue-ac-home_3260.jpg",
+    "bedrooms": 3,
+    "cost": 4000
+  }, {
+    "owner": "Noah Yasskin",
+    "city": "Portland",
+    "type": "Home",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7k2JxgatkbkR2-YmmdLgMYFYfEvVj_WLELWdoOaPUS_kgJ3N",
+    "bedrooms": 3,
+    "cost": 4000
+  }, {
+    "owner": "Marty Marty",
+    "city": "Portland",
+    "type": "Home",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnYXGQY6Et19WmbsUCnOwee0NehUpWhAhawT1zZHd3DM6Qy9F0eg",
+    "bedrooms": 3,
+    "cost": 4000
+  }, {
+    "owner": "Steph Awesomesauce",
+    "city": "Portland",
+    "type": "Home",
+    "image": "http://www.yourroadmaptohome.com/blog/wp-content/uploads/2010/09/5031332892_a6a9802c51.jpg",
+    "bedrooms": 3,
+    "cost": 4000
   }],
   "cities": [{
     "name": "Portland",
